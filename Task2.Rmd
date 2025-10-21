@@ -1,0 +1,24 @@
+---
+title: "Task2"
+output: html_document
+---
+
+```{r}
+u1 <- 104
+s1 <- 3
+n <- 1000
+
+sample1 <- rnorm(n, u1, s1)
+hist(mean(sample1))
+for (i in 1:9) {
+  sample <- rnorm(n, u1, s1)
+  hist(mean(sample), add = TRUE)
+}
+
+
+summary(sample1)
+```
+
+```{r}
+hist(sample1)
+```
