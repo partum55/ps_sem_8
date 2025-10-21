@@ -240,3 +240,6 @@ k_results$difference <- k_results$fraction_within - k_results$expected
 
 print(k_results)
 ```
+About 79%, 93%, and 99.5% of the data are within 1, 2, and 3 standard deviations of the mean.
+These numbers are slightly different from expected ones for a normal distribution (68%, 95%, 99.7%), which means the data isn’t perfectly normal.
+More values are close to the mean, showing the data is more tightly grouped and not evenly spread like a normal curve.
